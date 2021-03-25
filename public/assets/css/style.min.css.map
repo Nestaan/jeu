@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CAAC,EACE,KAAK,EAAE,IAAI,EACX,eAAe,EAAE,IAAI,GACxB",
+    "sources": [
+        "style.scss",
+        "configuration/_header.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}

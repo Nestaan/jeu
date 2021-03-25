@@ -1,0 +1,16 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Profil{% endblock %}
+
+{% block body %}
+<h1>Bonjour {{ user.getPseudo() }}</h1>
+
+<h3>Voici vos informations :</h3>
+<ul>
+    <li><b>Prénom:</b> {{user.getFirstname}}</li>
+    <li><b>Nom:</b> {{user.getLastName()}}</li>
+    <li><b>Pseudo:</b> {{user.getPseudo()}}</li>
+    <li><b>Anniversaire:</b> {{user.getBirthday() | date('d M Y')}}</li>
+</ul>
+{% endblock %}
