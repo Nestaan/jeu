@@ -1,2 +1,50 @@
-a { color: #000; text-decoration: none; }
+@font-face { font-family: 'fredoka'; src: url("../typos/FredokaOne-Regular.ttf"); }
+
+@font-face { font-family: 'lato'; src: url("../typos/Lato-Regular.ttf"); }
+
+* { scroll-behavior: smooth; text-decoration: none; list-style: none; overflow-x: hidden; }
+
+body { background-color: #c4e5e8; margin: 0; font-family: lato; }
+
+svg { position: relative; left: -50px; }
+
+h1 { font-family: fredoka; }
+
+li a { color: black; }
+
+video { background-color: black; width: 100vw; height: 100vh; margin-bottom: 10vh; }
+
+main #centrer { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; height: 50vh; }
+
+main #centrer form { display: -ms-grid; display: grid; height: -webkit-fit-content; height: -moz-fit-content; height: fit-content; -ms-grid-columns: 1fr 1fr; grid-template-columns: 1fr 1fr; grid-gap: 15px; }
+
+main #centrer form div { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-bottom: 10%; }
+
+main #centrer form label { margin-bottom: 5%; }
+
+main #centrer form a { margin-bottom: 10%; color: #333333; text-decoration: underline; font-size: 80%; }
+
+button { padding: 2%; background-color: #ff7f11; color: white; border: 2px solid #ff7f11; }
+
+button:hover { border: 2px solid #ff7f11; background-color: white; color: #ff7f11; }
+
+main #centrer, header, header div { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+#menu { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 5vh; }
+
+#menu a { padding: 10px; margin: 0 10px; }
+
+#menu a:hover { border-bottom: 2px solid black; }
+
+header { height: 70vh; }
+
+header div { width: 50%; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+header img { width: 40%; }
+
+#pied { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 5vh; }
+
+#pied a { padding: 10px; margin: 0 10px; }
+
+#pied a:hover { border-bottom: 2px solid black; }
 /*# sourceMappingURL=style.min.css.map */

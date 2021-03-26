@@ -1,4 +1,26 @@
-a {
-    color: #000;
-    text-decoration: none;
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+    a {
+        padding: 10px;
+        margin: 0 10px;
+        &:hover {
+            border-bottom: 2px solid black;
+        }
+    }
+}
+
+header {
+    height: 70vh;
+    @extend %flex;
+    div {
+        width: 50%;
+        @extend %flex;
+        flex-direction: column;
+    }
+    img {
+        width: 40%;
+    }
 }

@@ -1,0 +1,13 @@
+#pied {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
+    a {
+        padding: 10px;
+        margin: 0 10px;
+        &:hover {
+            border-bottom: 2px solid black;
+        }
+    }
+}
